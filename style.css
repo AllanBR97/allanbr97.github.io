@@ -1,0 +1,48 @@
+body {
+	/*background: url("background.png") repeat;*/
+	background: repeating-linear-gradient(90deg, #2a4646, #2a4646, #2a4646, #2a4646);
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.5;
+	margin: 0;
+}
+
+header {
+	font-family: 'Gloria Hallelujah', cursive;
+	background-color: rgba(0, 0, 0, .25);
+	text-align: center;
+	color: #b2f0f7;
+	font-size: 4rem;
+}
+
+.information {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	color: #ffffff;
+}
+
+.links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+a {
+	text-decoration: none;
+}
+
+.social-icon {
+	width: 32px;
+}
+
+/* tablets and desktop */
+@media only screen and (min-width: 768px) {
+	.container {
+		width: 500px;
+		padding: 8px;
+		margin: auto;
+		text-align: center;
+	}
+	.cards {
+		height:70vh;
+	}
+}
